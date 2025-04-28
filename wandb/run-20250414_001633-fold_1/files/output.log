@@ -1,0 +1,59 @@
+Fold 1 Epoch 1/16:   0%|          | 0/266 [00:14<?, ?it/s]
+Traceback (most recent call last):
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/main.py", line 230, in <module>
+    main(args.config)
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/main.py", line 214, in main
+    metrics = train_and_eval(
+              ^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/main.py", line 74, in train_and_eval
+    outputs = model(images, bboxes)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/models/model.py", line 44, in forward
+    image_embeddings = self.encoder(images)
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/peft/peft_model.py", line 563, in forward
+    return self.get_base_model()(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/segment_anything/modeling/image_encoder.py", line 112, in forward
+    x = blk(x)
+        ^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/segment_anything/modeling/image_encoder.py", line 174, in forward
+    x = self.attn(x)
+        ^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/segment_anything/modeling/image_encoder.py", line 234, in forward
+    attn = add_decomposed_rel_pos(attn, q, self.rel_pos_h, self.rel_pos_w, (H, W), (H, W))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/segment_anything/modeling/image_encoder.py", line 358, in add_decomposed_rel_pos
+    attn.view(B, q_h, q_w, k_h, k_w) + rel_h[:, :, :, :, None] + rel_w[:, :, :, None, :]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 GiB. GPU 0 has a total capacity of 31.73 GiB of which 1.84 GiB is free. Including non-PyTorch memory, this process has 29.88 GiB memory in use. Of the allocated memory 28.92 GiB is allocated by PyTorch, and 608.19 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

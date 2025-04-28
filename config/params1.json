@@ -1,0 +1,16 @@
+  {
+    "data_dir": "dataset/NuInsSeg",
+    "batch_size": 4,
+    "num_epochs": 5,
+    "learning_rate": 0.0001,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "num_folds": 5,
+    "model_checkpoint": "sam_vit_h_4b8939.pth",
+    "log_dir": "logs_32",
+    "checkpoint_dir": "checkpoints",
+    "random_seed": 42,
+    "num_workers": 60,
+    "val_interval": 1
+  }

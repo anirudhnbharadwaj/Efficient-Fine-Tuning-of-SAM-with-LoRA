@@ -1,0 +1,22 @@
+Fold 1 Epoch 1/5:   0%|          | 0/532 [00:09<?, ?it/s]
+Traceback (most recent call last):
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/main.py", line 234, in <module>
+    main(args.config)
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/main.py", line 218, in main
+    metrics = train_and_eval(
+              ^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/main.py", line 88, in train_and_eval
+    loss += criterion(output, mask_resized)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/modules/loss.py", line 821, in forward
+    return F.binary_cross_entropy_with_logits(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/lib/python3.11/site-packages/torch/nn/functional.py", line 3639, in binary_cross_entropy_with_logits
+    raise ValueError(
+ValueError: Target size (torch.Size([11, 256, 256])) must be the same as input size (torch.Size([6, 256, 256]))

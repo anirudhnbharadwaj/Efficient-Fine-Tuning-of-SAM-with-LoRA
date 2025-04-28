@@ -1,0 +1,7 @@
+{"time":"2025-04-14T08:56:22.402418785-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/wandb/run-20250414_085622-fold_4/logs/debug-core.log"}
+{"time":"2025-04-14T08:56:22.672122764-04:00","level":"INFO","msg":"created new stream","id":"fold_4"}
+{"time":"2025-04-14T08:56:22.672177002-04:00","level":"INFO","msg":"stream: started","id":"fold_4"}
+{"time":"2025-04-14T08:56:22.672197362-04:00","level":"INFO","msg":"handler: started","stream_id":"fold_4"}
+{"time":"2025-04-14T08:56:22.672200484-04:00","level":"INFO","msg":"sender: started","stream_id":"fold_4"}
+{"time":"2025-04-14T08:56:22.672263845-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"fold_4"}
+{"time":"2025-04-14T08:56:23.031658619-04:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,17 @@
+{"time":"2025-04-14T02:12:17.396250305-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/wandb/run-20250414_021217-fold_1/logs/debug-core.log"}
+{"time":"2025-04-14T02:12:17.59334443-04:00","level":"INFO","msg":"created new stream","id":"fold_1"}
+{"time":"2025-04-14T02:12:17.593400582-04:00","level":"INFO","msg":"stream: started","id":"fold_1"}
+{"time":"2025-04-14T02:12:17.593426241-04:00","level":"INFO","msg":"sender: started","stream_id":"fold_1"}
+{"time":"2025-04-14T02:12:17.593438742-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"fold_1"}
+{"time":"2025-04-14T02:12:17.593467008-04:00","level":"INFO","msg":"handler: started","stream_id":"fold_1"}
+{"time":"2025-04-14T02:12:17.828246605-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-14T02:31:47.982320075-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-14T04:26:30.341191316-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-14T04:26:30.422489785-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-14T04:26:30.957496458-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/fold_viz_2666_e4b14a17fc079735aac1.png","runtime_seconds":0.701610174},{"desc":"uploading output.log","runtime_seconds":0.378837821},{"desc":"uploading wandb-summary.json","runtime_seconds":0.378822815}],"total_operations":3}}
+{"time":"2025-04-14T04:26:31.508596189-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-14T04:26:31.891143312-04:00","level":"INFO","msg":"stream: closing","id":"fold_1"}
+{"time":"2025-04-14T04:26:31.8914679-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fold_1"}
+{"time":"2025-04-14T04:26:31.899691158-04:00","level":"INFO","msg":"handler: closed","stream_id":"fold_1"}
+{"time":"2025-04-14T04:26:31.908637027-04:00","level":"INFO","msg":"sender: closed","stream_id":"fold_1"}
+{"time":"2025-04-14T04:26:31.908682836-04:00","level":"INFO","msg":"stream: closed","id":"fold_1"}

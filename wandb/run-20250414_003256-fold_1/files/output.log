@@ -1,0 +1,17 @@
+Fold 1 Epoch 1/5: 100%|██████████| 532/532 [12:41<00:00,  1.43s/it, loss=0.00774]
+2025-04-14 00:45:38,573 [INFO] Fold 1 Epoch 1/5 - Train Loss: 0.0077
+2025-04-14 00:45:42,312 [INFO] Checkpoint saved to checkpoints/checkpoint_fold_1.pth
+Fold 1 Epoch 2/5: 100%|██████████| 532/532 [12:30<00:00,  1.41s/it, loss=0.0044] 
+2025-04-14 00:58:12,984 [INFO] Fold 1 Epoch 2/5 - Train Loss: 0.0044
+2025-04-14 00:58:16,878 [INFO] Checkpoint saved to checkpoints/checkpoint_fold_1.pth
+Fold 1 Validation: 100%|██████████| 133/133 [10:20<00:00,  4.66s/it]
+2025-04-14 01:08:36,950 [INFO] Fold 1 Epoch 2 Validation Metrics: {'Dice': 0.7682956337891607, 'AJI': 0.536171788621632, 'PQ': 0.0029926803028666156}
+Fold 1 Epoch 3/5: 100%|██████████| 532/532 [12:36<00:00,  1.42s/it, loss=0.00384]
+2025-04-14 01:21:13,101 [INFO] Fold 1 Epoch 3/5 - Train Loss: 0.0038
+2025-04-14 01:21:17,033 [INFO] Checkpoint saved to checkpoints/checkpoint_fold_1.pth
+Fold 1 Epoch 4/5: 100%|██████████| 532/532 [12:30<00:00,  1.41s/it, loss=0.00356]
+2025-04-14 01:33:48,003 [INFO] Fold 1 Epoch 4/5 - Train Loss: 0.0036
+2025-04-14 01:33:51,900 [INFO] Checkpoint saved to checkpoints/checkpoint_fold_1.pth
+Fold 1 Validation: 100%|██████████| 133/133 [11:05<00:00,  5.00s/it]
+2025-04-14 01:44:57,466 [INFO] Fold 1 Epoch 4 Validation Metrics: {'Dice': 0.809325540634269, 'AJI': 0.6133257403863367, 'PQ': 0.0033563345}
+Fold 1 Epoch 5/5:  50%|█████     | 266/532 [06:16<06:16,  1.41s/it, loss=0.00337]

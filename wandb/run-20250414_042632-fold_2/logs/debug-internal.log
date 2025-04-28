@@ -1,0 +1,17 @@
+{"time":"2025-04-14T04:26:32.598437149-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/wandb/run-20250414_042632-fold_2/logs/debug-core.log"}
+{"time":"2025-04-14T04:26:33.200084501-04:00","level":"INFO","msg":"created new stream","id":"fold_2"}
+{"time":"2025-04-14T04:26:33.200280613-04:00","level":"INFO","msg":"stream: started","id":"fold_2"}
+{"time":"2025-04-14T04:26:33.200361726-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"fold_2"}
+{"time":"2025-04-14T04:26:33.200430444-04:00","level":"INFO","msg":"handler: started","stream_id":"fold_2"}
+{"time":"2025-04-14T04:26:33.200494289-04:00","level":"INFO","msg":"sender: started","stream_id":"fold_2"}
+{"time":"2025-04-14T04:26:33.996609118-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-14T04:43:35.440955787-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-14T06:47:19.041633478-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-14T06:47:19.061624087-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-14T06:47:19.527076793-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-14T06:47:19.644282403-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-04-14T06:47:19.664902541-04:00","level":"INFO","msg":"stream: closing","id":"fold_2"}
+{"time":"2025-04-14T06:47:19.664936684-04:00","level":"INFO","msg":"handler: closed","stream_id":"fold_2"}
+{"time":"2025-04-14T06:47:19.664961072-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fold_2"}
+{"time":"2025-04-14T06:47:19.665003768-04:00","level":"INFO","msg":"sender: closed","stream_id":"fold_2"}
+{"time":"2025-04-14T06:47:19.665314775-04:00","level":"INFO","msg":"stream: closed","id":"fold_2"}

@@ -1,0 +1,23 @@
+2025-04-14 00:16:33,593 INFO    MainThread:698308 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-14 00:16:33,593 INFO    MainThread:698308 [wandb_setup.py:_flush():67] Configure stats pid to 698308
+2025-04-14 00:16:33,593 INFO    MainThread:698308 [wandb_setup.py:_flush():67] Loading settings from /home/cap5516.student5/.config/wandb/settings
+2025-04-14 00:16:33,593 INFO    MainThread:698308 [wandb_setup.py:_flush():67] Loading settings from /lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/wandb/settings
+2025-04-14 00:16:33,593 INFO    MainThread:698308 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-14 00:16:33,594 INFO    MainThread:698308 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/wandb/run-20250414_001633-fold_1/logs/debug.log
+2025-04-14 00:16:33,594 INFO    MainThread:698308 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/wandb/run-20250414_001633-fold_1/logs/debug-internal.log
+2025-04-14 00:16:33,594 INFO    MainThread:698308 [wandb_init.py:init():781] calling init triggers
+2025-04-14 00:16:33,594 INFO    MainThread:698308 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'data_dir': 'dataset/NuInsSeg', 'batch_size': 2, 'num_epochs': 16, 'learning_rate': 0.0001, 'lora_r': 16, 'lora_alpha': 32, 'lora_dropout': 0.1, 'num_folds': 5, 'model_checkpoint': 'sam_vit_h_4b8939.pth', 'log_dir': 'logs', 'checkpoint_dir': 'checkpoints', 'random_seed': 42, 'num_workers': 30, 'val_interval': 2, '_wandb': {}}
+2025-04-14 00:16:33,594 INFO    MainThread:698308 [wandb_init.py:init():809] starting backend
+2025-04-14 00:16:33,594 INFO    MainThread:698308 [wandb_init.py:init():813] sending inform_init request
+2025-04-14 00:16:33,670 INFO    MainThread:698308 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-14 00:16:33,670 INFO    MainThread:698308 [wandb_init.py:init():823] backend started and connected
+2025-04-14 00:16:33,675 INFO    MainThread:698308 [wandb_init.py:init():915] updated telemetry
+2025-04-14 00:16:33,676 INFO    MainThread:698308 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-14 00:16:34,076 INFO    MainThread:698308 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-14 00:16:34,555 INFO    MainThread:698308 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-14 00:16:34,555 INFO    MainThread:698308 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-14 00:16:34,555 INFO    MainThread:698308 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-14 00:16:34,555 INFO    MainThread:698308 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-14 00:16:35,326 INFO    MainThread:698308 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-14 00:16:49,561 INFO    MsgRouterThr:698308 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 2 handles.

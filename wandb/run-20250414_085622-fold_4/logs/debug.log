@@ -1,0 +1,17 @@
+2025-04-14 08:56:22,356 INFO    MainThread:637503 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/wandb/run-20250414_085622-fold_4/logs/debug.log
+2025-04-14 08:56:22,357 INFO    MainThread:637503 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/wandb/run-20250414_085622-fold_4/logs/debug-internal.log
+2025-04-14 08:56:22,357 INFO    MainThread:637503 [wandb_init.py:init():781] calling init triggers
+2025-04-14 08:56:22,357 INFO    MainThread:637503 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'data_dir': 'dataset/NuInsSeg', 'batch_size': 1, 'num_epochs': 5, 'learning_rate': 0.0001, 'lora_r': 16, 'lora_alpha': 32, 'lora_dropout': 0.1, 'num_folds': 5, 'model_checkpoint': 'sam_vit_h_4b8939.pth', 'log_dir': 'logs_32', 'checkpoint_dir': 'checkpoints', 'random_seed': 42, 'num_workers': 30, 'val_interval': 1, '_wandb': {}}
+2025-04-14 08:56:22,357 INFO    MainThread:637503 [wandb_init.py:init():809] starting backend
+2025-04-14 08:56:22,357 INFO    MainThread:637503 [wandb_init.py:init():813] sending inform_init request
+2025-04-14 08:56:22,397 INFO    MainThread:637503 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-14 08:56:22,397 INFO    MainThread:637503 [wandb_init.py:init():823] backend started and connected
+2025-04-14 08:56:22,399 INFO    MainThread:637503 [wandb_init.py:init():915] updated telemetry
+2025-04-14 08:56:22,402 INFO    MainThread:637503 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-14 08:56:23,029 INFO    MainThread:637503 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-14 08:56:25,509 INFO    MainThread:637503 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-14 08:56:25,509 INFO    MainThread:637503 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-14 08:56:25,509 INFO    MainThread:637503 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-14 08:56:25,509 INFO    MainThread:637503 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-14 08:56:25,510 INFO    MainThread:637503 [wandb_init.py:init():1056] run started, returning control to user process

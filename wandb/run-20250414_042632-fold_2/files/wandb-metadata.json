@@ -1,0 +1,91 @@
+{
+  "os": "Linux-4.18.0-425.3.1.el8.x86_64-x86_64-with-glibc2.28",
+  "python": "CPython 3.11.4",
+  "startedAt": "2025-04-14T08:26:32.483645Z",
+  "args": [
+    "--config",
+    "config/params1.json"
+  ],
+  "program": "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/main.py",
+  "codePath": "main.py",
+  "email": "anirudhbharadwaj2001@gmail.com",
+  "root": "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3",
+  "host": "evc17",
+  "executable": "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3/nuinsseg_venv/bin/python",
+  "codePathLocal": "main.py",
+  "cpu_count": 32,
+  "cpu_count_logical": 32,
+  "gpu": "Tesla V100-PCIE-32GB",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "175431241728",
+      "used": "10860183552"
+    }
+  },
+  "memory": {
+    "total": "201098940416"
+  },
+  "cpu": {
+    "count": 32,
+    "countLogical": 32
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla V100-PCIE-32GB",
+      "memoryTotal": "34359738368",
+      "cudaCores": 5120,
+      "architecture": "Volta"
+    },
+    {
+      "name": "Tesla V100-PCIE-32GB",
+      "memoryTotal": "34359738368",
+      "cudaCores": 5120,
+      "architecture": "Volta"
+    }
+  ],
+  "slurm": {
+    "cluster_name": "newton",
+    "conf": "/etc/slurm/slurm.conf",
+    "cpus_on_node": "32",
+    "cpus_per_task": "32",
+    "gpus": "2",
+    "gpus_on_node": "2",
+    "gtids": "0",
+    "job_account": "course.cap5516",
+    "job_cpus_per_node": "32",
+    "job_end_time": "1744733512",
+    "job_gid": "48005",
+    "job_gpus": "0,1",
+    "job_id": "455793",
+    "job_name": "NIS_red",
+    "job_nodelist": "evc17",
+    "job_num_nodes": "1",
+    "job_partition": "normal",
+    "job_qos": "course.cap5516",
+    "job_start_time": "1744611112",
+    "job_uid": "48005",
+    "job_user": "cap5516.student5",
+    "jobid": "455793",
+    "localid": "0",
+    "mem_per_node": "122880",
+    "nnodes": "1",
+    "nodeid": "0",
+    "nodelist": "evc17",
+    "nprocs": "1",
+    "ntasks": "1",
+    "ntasks_per_node": "1",
+    "overlap": "1",
+    "prio_process": "0",
+    "procid": "0",
+    "submit_dir": "/lustre/fs1/home/cap5516.student5/CAP5516-MIC/A3",
+    "submit_host": "evuser1",
+    "task_pid": "637456",
+    "tasks_per_node": "1",
+    "topology_addr": "spine.B1U1.evc17",
+    "topology_addr_pattern": "switch.switch.node",
+    "tres_per_task": "cpu:32",
+    "whole": "1"
+  },
+  "cudaVersion": "12.4"
+}

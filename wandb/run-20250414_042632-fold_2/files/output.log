@@ -1,0 +1,28 @@
+Fold 2 Epoch 1/5: 100%|██████████| 532/532 [12:48<00:00,  1.44s/it, loss=0.00335]
+2025-04-14 04:39:23,646 [INFO] Fold 2 Epoch 1/5 - Train Loss: 0.0034
+2025-04-14 04:39:27,169 [INFO] Checkpoint saved to checkpoints/checkpoint_fold_2.pth
+Fold 2 Validation: 100%|██████████| 133/133 [12:49<00:00,  5.78s/it]
+2025-04-14 04:52:16,328 [INFO] Fold 2 Epoch 1 Validation Metrics: {'Dice': 0.8161017209972471, 'AJI': 0.579183887515849, 'PQ': 0.528029240645662}
+Fold 2 Epoch 2/5: 100%|██████████| 532/532 [12:46<00:00,  1.44s/it, loss=0.00313]
+2025-04-14 05:05:02,351 [INFO] Fold 2 Epoch 2/5 - Train Loss: 0.0031
+2025-04-14 05:05:06,546 [INFO] Checkpoint saved to checkpoints/checkpoint_fold_2.pth
+Fold 2 Validation: 100%|██████████| 133/133 [12:28<00:00,  5.63s/it]
+2025-04-14 05:17:35,205 [INFO] Fold 2 Epoch 2 Validation Metrics: {'Dice': 0.816029227367027, 'AJI': 0.5917154340871987, 'PQ': 0.5235530772063262}
+Fold 2 Epoch 3/5: 100%|██████████| 532/532 [12:45<00:00,  1.44s/it, loss=0.00302]
+2025-04-14 05:30:20,965 [INFO] Fold 2 Epoch 3/5 - Train Loss: 0.0030
+2025-04-14 05:30:25,175 [INFO] Checkpoint saved to checkpoints/checkpoint_fold_2.pth
+Fold 2 Validation: 100%|██████████| 133/133 [12:29<00:00,  5.64s/it]
+2025-04-14 05:42:54,973 [INFO] Fold 2 Epoch 3 Validation Metrics: {'Dice': 0.8188801461767156, 'AJI': 0.6027672407204872, 'PQ': 0.5481814620580586}
+Fold 2 Epoch 4/5: 100%|██████████| 532/532 [12:45<00:00,  1.44s/it, loss=0.00293]
+2025-04-14 05:55:40,309 [INFO] Fold 2 Epoch 4/5 - Train Loss: 0.0029
+2025-04-14 05:55:44,266 [INFO] Checkpoint saved to checkpoints/checkpoint_fold_2.pth
+Fold 2 Validation: 100%|██████████| 133/133 [12:19<00:00,  5.56s/it]
+2025-04-14 06:08:04,076 [INFO] Fold 2 Epoch 4 Validation Metrics: {'Dice': 0.8240508940789706, 'AJI': 0.61397750360371, 'PQ': 0.5545743827150318}
+Fold 2 Epoch 5/5: 100%|██████████| 532/532 [12:46<00:00,  1.44s/it, loss=0.00287]
+2025-04-14 06:20:50,281 [INFO] Fold 2 Epoch 5/5 - Train Loss: 0.0029
+2025-04-14 06:20:54,265 [INFO] Checkpoint saved to checkpoints/checkpoint_fold_2.pth
+Fold 2 Validation: 100%|██████████| 133/133 [12:59<00:00,  5.86s/it]
+2025-04-14 06:33:53,872 [INFO] Fold 2 Epoch 5 Validation Metrics: {'Dice': 0.816237552427914, 'AJI': 0.5944139725473784, 'PQ': 0.5488293754296668}
+Fold 2 Final Validation: 100%|██████████| 133/133 [13:17<00:00,  5.99s/it]
+2025-04-14 06:47:11,006 [INFO] Fold 2 Final Validation Metrics: {'Dice': 0.816237552427914, 'AJI': 0.5944139725473784, 'PQ': 0.5488293754296668}
+2025-04-14 06:47:18,577 [INFO] Fold 2 prediction visualization saved to logs_32/fold_2_final_viz.png
